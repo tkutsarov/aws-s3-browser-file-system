@@ -1,0 +1,7 @@
+.config-input.card {
+  width: 320px;
+}
+
+label {
+  display: block;
+}

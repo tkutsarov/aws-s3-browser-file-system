@@ -1,0 +1,25 @@
+ul {
+  padding: 0.5rem 0.8rem;
+  list-style-type: none;
+}
+
+.dir-container {
+  position: relative;
+  padding-left: 0.7rem;
+}
+
+.dir-container > div {
+  cursor: pointer;
+}
+
+li.open > ul {
+  display: block;
+}
+
+li.hidden > ul {
+  display: none;
+}
+
+.active > div {
+  color: blue;
+}

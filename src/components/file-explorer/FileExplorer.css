@@ -1,0 +1,71 @@
+.change-config {
+  margin: 0.8rem auto;
+}
+
+.explorer-container {
+  width: 1300px;
+  text-align: left;
+}
+
+.dir-menu {
+  display: inline-block;
+  height: 100vh;
+  width: 25%;
+  border: 2px solid #A9A9A9;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  overflow-y: auto;
+}
+
+.dir-contents {
+  display: inline-block;
+  height: 100vh;
+  width: 71%;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  overflow-y: auto;   
+}
+
+.file-container, .files-header {
+  display: table;
+  width: 100%;
+}
+
+.file-container {
+  height: 1.8rem;
+}
+
+.file-container:hover {
+  background: rgba(172, 196, 228, 0.6);;
+}
+
+.files-header {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.file-name, .file-size, .file-date {
+  display: table-cell;
+  padding: 0.25rem;
+}
+
+.file-name {
+  cursor: pointer;
+}
+
+.file-name, .delete-file {
+  display: inline-block;
+}
+
+.file-name-container {
+  width: 55%;
+}
+
+.file.size {
+  width: 20%;
+}
+
+.file-date {
+  width: 25%;
+}

@@ -1,0 +1,33 @@
+.btn {
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+
+.btn.small {
+  margin: 0.2rem;
+  border-radius: 0.4rem;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.8rem;
+}
+
+.btn.regular {
+  margin: 0.8rem 0.4rem;
+  min-width: 3rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.btn-success {
+  border: 1px solid green;
+  background: lightgreen;
+}
+
+.btn-error {
+  border: 1px solid red;
+  background: rgb(230, 137, 137);
+}
+
+.btn-message {
+  border: 1px solid rgb(218, 206, 45);
+  background: rgb(240, 217, 89);
+}

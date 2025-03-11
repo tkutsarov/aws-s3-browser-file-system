@@ -1,0 +1,30 @@
+.chevron-container {
+		display: inline-block;
+		position: absolute;
+    left: 0;
+    width: 0.65rem;
+    height: 0.65rem;
+    top: 0.6rem;
+		cursor: pointer;
+}
+
+.chevron {
+	border-style: solid;
+	border-width: 0.15rem 0.15rem 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.3rem;
+	left: 0;
+	position: absolute;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.3rem;
+}
+
+.chevron.right {
+	transform: rotate(45deg);
+}
+
+.chevron.bottom {
+	transform: rotate(135deg);
+}
